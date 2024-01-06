@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Corrected font-family property */
+    text-align: center;
+    background: linear-gradient(to bottom, #c7d9e5, #1781c7);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 5vw;
+}
+
+#counter {
+    font-size: 3vh;
+    line-height: 1.5;
+    padding: 10px;
+    border-radius: 12px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#counter span {
+    display: block;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+#counter span.year {
+    color: #ffcc00;
+    background-color: rgba(173, 216, 230, 0.7);
+}
+
+#counter span:nth-child(5) {
+    background-color: rgba(255, 165, 0, 0.7);
+}
+
+#quote {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; /* Corrected font-family property */
+    margin-bottom: 15px;
+}
